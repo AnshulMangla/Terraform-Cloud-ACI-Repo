@@ -1,5 +1,12 @@
 # Provider Declaration
 terraform {
+  backend "remote" {
+    hostname = "app.terraform.io"
+    organization = "mel-ciscolabs-com"
+    workspaces {
+      name = "Terraform-ACI"
+    }
+  }
   required_providers {
     aci = {
         source = "CiscoDevNet/aci"
