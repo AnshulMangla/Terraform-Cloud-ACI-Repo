@@ -16,9 +16,9 @@ terraform {
 
 # Provider Configuration
 provider "aci" {
-    url = "https://10.106.236.54"
-    username = "pandapa"
-    password = "cisco!123"
+    url = "https://sandboxapicdc.cisco.com"
+    username = "admin"
+    password = "!v3G@!4@Y"
 }
 
 resource "aci_tenant" "anshul_terraform" {
