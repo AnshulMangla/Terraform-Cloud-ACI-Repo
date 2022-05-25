@@ -21,6 +21,7 @@ provider "aci" {
     password = "!v3G@!4@Y"
 }
 
-resource "aci_tenant" "anshul_terraform" {
-    name = "anshul_terraform"
-}
+# ACI Tenant
+#resource "aci_tenant" "anshul_terraform" {
+#    name = "anshul_terraform"
+#}
