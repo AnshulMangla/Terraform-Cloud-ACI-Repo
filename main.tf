@@ -16,9 +16,10 @@ terraform {
 
 # Provider Configuration
 provider "aci" {
-    url = "https://10.106.236.xx"
-    username = "pandaxx"
-    password = "xxxx"
+  username = var.aci_user
+  password = var.aci_password
+  url      = var.aci_url
+  insecure = true
 }
 
 # ACI Tenant
