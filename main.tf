@@ -22,7 +22,7 @@ provider "aci" {
   insecure = true
 }
 
-# ACI Tenant
+# ACI Tenant2
  resource "aci_tenant" "anshul_terraform" {
     name = "anshul_terraform"
 }
